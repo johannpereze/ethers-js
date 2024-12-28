@@ -20,13 +20,13 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
-    "noUncheckedSideEffectImports": true
-  },
-  "include": ["src"],
+    "noUncheckedSideEffectImports": true,
 
-  /* ShadCN + Tailwind */
-  "baseUrl": ".",
-  "paths": {
-    "@/*": ["./src/*"]
-  }
+    /* ShadCN + Tailwind */
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["src"]
 }
